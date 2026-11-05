@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Capa do vídeo 2 — GUARULHOS-SP</title>
+  <desc id="desc">Composição de luz e arcos em violeta e coral, com selo azul de verificado junto ao nome da cidade.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#201936"/>
+      <stop offset="1" stop-color="#50334F"/>
+    </linearGradient>
+    <linearGradient id="light" x2="0" y2="1">
+      <stop stop-color="#FFE5B4"/>
+      <stop offset="1" stop-color="#F08C88" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="shade" x2="0" y2="1">
+      <stop stop-color="#171426" stop-opacity="0"/>
+      <stop offset="1" stop-color="#171426"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#background)"/>
+  <path d="M758 470 V246 A190 190 0 0 1 1138 246 V470Z" fill="url(#light)"/>
+  <path d="M718 470 V246 A230 230 0 0 1 1178 246 V470" fill="none" stroke="#FFD6B3" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M678 470 V246 A270 270 0 0 1 1218 246 V470" fill="none" stroke="#FFD6B3" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M0 374 Q310 300 650 410 T1280 370 V720 H0Z" fill="#251D37"/>
+  <rect y="310" width="1280" height="410" fill="url(#shade)"/>
+  <rect x="64" y="64" width="166" height="46" rx="23" fill="#FFFFFF" fill-opacity=".08" stroke="#FFFFFF" stroke-opacity=".2"/>
+  <text x="147" y="94" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#F4E8EF">VÍDEO 02</text>
+  <path d="M80 474 H144" stroke="#FFB5A3" stroke-width="5" stroke-linecap="round"/>
+  <text x="76" y="574" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="1" fill="#FFFFFF">GUARULHOS-SP</text>
+  <g transform="translate(772 545)">
+    <path d="M0-33 9-27 20-27 25-17 33-10 30 1 33 12 24 19 19 29 8 29 0 35-9 29-20 29-25 19-33 12-30 1-33-10-24-17-19-27-8-27Z" fill="#168BFF"/>
+    <path d="m-14 1 9 9 19-20" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M80 636 H1200" stroke="#FFFFFF" stroke-opacity=".15"/>
+</svg>

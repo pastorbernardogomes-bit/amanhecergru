@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Capa do vídeo 1 — GUARULHOS-SP</title>
+  <desc id="desc">Composição de amanhecer em azul e dourado, com selo azul de verificado junto ao nome da cidade.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#08172F"/>
+      <stop offset="1" stop-color="#16446A"/>
+    </linearGradient>
+    <linearGradient id="sun" x2="0" y2="1">
+      <stop stop-color="#FFE8A3"/>
+      <stop offset="1" stop-color="#FF9866"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#F9B971" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#F9B971" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#background)"/>
+  <circle cx="965" cy="270" r="390" fill="url(#glow)"/>
+  <circle cx="965" cy="270" r="162" fill="none" stroke="#FFE8A3" stroke-opacity=".18"/>
+  <circle cx="965" cy="270" r="125" fill="url(#sun)"/>
+  <path d="M0 376 Q250 290 520 375 T1280 340 V720 H0Z" fill="#102D49"/>
+  <path d="M0 428 Q350 350 700 425 T1280 390 V720 H0Z" fill="#0A1D34"/>
+  <rect x="64" y="64" width="166" height="46" rx="23" fill="#FFFFFF" fill-opacity=".08" stroke="#FFFFFF" stroke-opacity=".2"/>
+  <text x="147" y="94" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#E3EDF7">VÍDEO 01</text>
+  <path d="M80 474 H144" stroke="#FFD28E" stroke-width="5" stroke-linecap="round"/>
+  <text x="76" y="574" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="1" fill="#FFFFFF">GUARULHOS-SP</text>
+  <g transform="translate(772 545)">
+    <path d="M0-33 9-27 20-27 25-17 33-10 30 1 33 12 24 19 19 29 8 29 0 35-9 29-20 29-25 19-33 12-30 1-33-10-24-17-19-27-8-27Z" fill="#168BFF"/>
+    <path d="m-14 1 9 9 19-20" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M80 636 H1200" stroke="#FFFFFF" stroke-opacity=".15"/>
+</svg>
